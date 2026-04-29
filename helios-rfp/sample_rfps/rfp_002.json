@@ -1,0 +1,31 @@
+{
+  "rfp_id": "RFP-002",
+  "prospect": "Orbital Logistics",
+  "vertical": "transportation",
+  "questions": [
+    {
+      "id": "Q1",
+      "text": "What is your contractual SLA for high-severity alert delivery, and what is your measured median latency?"
+    },
+    {
+      "id": "Q2",
+      "text": "Which network and identity vendors do you integrate with out of the box?"
+    },
+    {
+      "id": "Q3",
+      "text": "Do you hold SOC 2 Type II? Who is your auditor and when was the last report issued?"
+    },
+    {
+      "id": "Q4",
+      "text": "Describe your endpoint agent footprint (CPU/memory) and update mechanism."
+    },
+    {
+      "id": "Q5",
+      "text": "What is the minimum contract term and are multi-year discounts offered?"
+    },
+    {
+      "id": "Q6",
+      "text": "Where is your company headquartered and how many employees do you have?"
+    }
+  ]
+}

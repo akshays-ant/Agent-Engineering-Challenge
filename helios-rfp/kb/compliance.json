@@ -1,0 +1,54 @@
+[
+  {
+    "doc_id": "cert-soc2",
+    "certification": "SOC 2 Type II",
+    "status": "active",
+    "scope": "Helios Cloud Platform (EDR, SIEM, MDR)",
+    "auditor": "Schellman & Co.",
+    "last_audit": "2024-01-15",
+    "report_period": "2023-01-01 to 2023-12-31",
+    "next_audit": "2025-01"
+  },
+  {
+    "doc_id": "cert-iso27001",
+    "certification": "ISO/IEC 27001:2022",
+    "status": "active",
+    "scope": "Information Security Management System for Helios Cloud",
+    "auditor": "BSI Group",
+    "last_audit": "2023-11-02",
+    "certificate_expiry": "2026-11-01"
+  },
+  {
+    "doc_id": "cert-pcidss",
+    "certification": "PCI DSS v4.0 Level 1 Service Provider",
+    "status": "active",
+    "scope": "Cardholder-data-adjacent log processing",
+    "auditor": "Coalfire",
+    "last_audit": "2023-09-18",
+    "next_audit": "2024-09"
+  },
+  {
+    "doc_id": "cert-fedramp",
+    "certification": "FedRAMP Moderate",
+    "status": "in_process",
+    "scope": "Helios GovCloud",
+    "sponsor": "Dept. of Energy",
+    "3pao": "Kratos",
+    "expected_ato": "2024-Q3"
+  },
+  {
+    "doc_id": "cert-hipaa",
+    "certification": "HIPAA Security Rule",
+    "status": "attested",
+    "scope": "ePHI handling in MDR workflows",
+    "assessor": "CynergisTek",
+    "last_assessment": "2024-02-20",
+    "baa_available": true
+  },
+  {
+    "doc_id": "cert-csa-star",
+    "certification": "CSA STAR Level 1 (Self-Assessment)",
+    "status": "active",
+    "last_submission": "2024-01-30"
+  }
+]

@@ -1,0 +1,79 @@
+{
+  "doc_id": "pricing-2024",
+  "title": "Helios Security Commercial Price Sheet — FY2024",
+  "currency": "USD",
+  "effective": "2024-01-01",
+  "products": [
+    {
+      "sku": "HEL-EDR",
+      "name": "Helios EDR",
+      "unit": "endpoint/year",
+      "list_price": 48
+    },
+    {
+      "sku": "HEL-SIEM",
+      "name": "Helios SIEM",
+      "unit": "GB ingested/day (annual)",
+      "list_price": 3.2
+    },
+    {
+      "sku": "HEL-MDR",
+      "name": "Helios MDR (add-on to EDR)",
+      "unit": "endpoint/year",
+      "list_price": 24
+    },
+    {
+      "sku": "HEL-BUNDLE",
+      "name": "EDR + MDR Bundle",
+      "unit": "endpoint/year",
+      "list_price": 72
+    }
+  ],
+  "volume_discounts": [
+    {
+      "min_endpoints": 1,
+      "discount_pct": 0
+    },
+    {
+      "min_endpoints": 1000,
+      "discount_pct": 10
+    },
+    {
+      "min_endpoints": 5000,
+      "discount_pct": 22
+    },
+    {
+      "min_endpoints": 10000,
+      "discount_pct": 30
+    }
+  ],
+  "contract_terms": {
+    "minimum_term_months": 12,
+    "multi_year_discount": {
+      "24_months": 5,
+      "36_months": 8
+    },
+    "payment": "Annual in advance; quarterly available for >5,000 endpoints",
+    "overage": "True-up quarterly at then-current tier price"
+  },
+  "worked_examples": [
+    {
+      "endpoints": 500,
+      "sku": "HEL-EDR",
+      "effective_price_per_seat": 48,
+      "annual_total": 24000
+    },
+    {
+      "endpoints": 1000,
+      "sku": "HEL-EDR",
+      "effective_price_per_seat": 43.2,
+      "annual_total": 43200
+    },
+    {
+      "endpoints": 5000,
+      "sku": "HEL-EDR",
+      "effective_price_per_seat": 37.44,
+      "annual_total": 187200
+    }
+  ]
+}

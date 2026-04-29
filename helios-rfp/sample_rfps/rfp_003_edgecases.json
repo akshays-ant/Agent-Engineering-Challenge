@@ -1,0 +1,27 @@
+{
+  "rfp_id": "RFP-003-edgecases",
+  "prospect": "Civic County Government",
+  "vertical": "public_sector",
+  "questions": [
+    {
+      "id": "Q1",
+      "text": "Are you FedRAMP High authorized?"
+    },
+    {
+      "id": "Q2",
+      "text": "Do you support on-premises / air-gapped deployment with no cloud connectivity?"
+    },
+    {
+      "id": "Q3",
+      "text": "Provide pricing in EUR for 2,500 endpoints on a 36-month term."
+    },
+    {
+      "id": "Q4",
+      "text": "Describe your encryption posture AND list every certification you hold AND provide your Dublin office address."
+    },
+    {
+      "id": "Q5",
+      "text": "What is your roadmap for quantum-resistant cryptography?"
+    }
+  ]
+}

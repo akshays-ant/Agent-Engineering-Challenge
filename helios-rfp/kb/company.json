@@ -1,0 +1,46 @@
+{
+  "doc_id": "company-factsheet-2024",
+  "title": "Helios Security Company Fact Sheet",
+  "last_updated": "2024-04-01",
+  "founded": 2017,
+  "headquarters": "Austin, TX",
+  "employees": 410,
+  "offices": [
+    "Austin TX",
+    "Tel Aviv IL",
+    "Dublin IE"
+  ],
+  "funding": {
+    "total_raised_usd_m": 142,
+    "last_round": "Series C",
+    "last_round_date": "2023-05",
+    "lead_investor": "Insight Partners"
+  },
+  "customers_total": 620,
+  "customers_by_vertical": {
+    "financial_services": 47,
+    "healthcare": 38,
+    "manufacturing": 71,
+    "retail": 54,
+    "technology": 130,
+    "public_sector": 22,
+    "other": 258
+  },
+  "reference_accounts": {
+    "financial_services": [
+      "Ridgeline Credit Union",
+      "Northstar Capital",
+      "PayWave Inc."
+    ],
+    "healthcare": [
+      "Medora Health",
+      "BlueOak Clinics"
+    ],
+    "manufacturing": [
+      "Globex Manufacturing",
+      "Triton Industrial"
+    ]
+  },
+  "support": "24×7 follow-the-sun (Austin / Dublin)",
+  "uptime_sla": "99.9% console availability"
+}
