@@ -1,0 +1,18 @@
+{
+  "prospect": "Meridian Credit Union",
+  "context": "Existing FS reference account expanding coverage.",
+  "questions": [
+    {
+      "id": "Q1",
+      "text": "Which SIEM and ticketing integrations are supported out of the box?"
+    },
+    {
+      "id": "Q2",
+      "text": "Confirm SOC 2 Type II status and date of most recent report."
+    },
+    {
+      "id": "Q3",
+      "text": "How many financial services customers do you serve, and can Meridian be used as a reference?"
+    }
+  ]
+}

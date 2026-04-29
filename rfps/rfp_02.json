@@ -1,0 +1,22 @@
+{
+  "prospect": "Orbital Logistics",
+  "context": "Edge-case stress test. Includes a question with no KB coverage.",
+  "questions": [
+    {
+      "id": "Q1",
+      "text": "Does your platform currently support quantum-resistant (post-quantum) cryptographic algorithms for data in transit? If so, which."
+    },
+    {
+      "id": "Q2",
+      "text": "What is your uptime?"
+    },
+    {
+      "id": "Q3",
+      "text": "Describe your incident response process: (a) how are customers notified of a confirmed breach, (b) what is the SLA for critical vulnerability remediation, and (c) how frequently do you undergo third-party penetration testing?"
+    },
+    {
+      "id": "Q4",
+      "text": "Provide pricing for 750 endpoints including the MDR add-on, on a 36-month term."
+    }
+  ]
+}
