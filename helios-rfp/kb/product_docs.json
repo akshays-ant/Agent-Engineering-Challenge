@@ -1,0 +1,37 @@
+[
+  {
+    "doc_id": "doc-edr-architecture",
+    "title": "Helios EDR Architecture Overview",
+    "category": "technical",
+    "last_updated": "2024-03-01",
+    "content": "The Helios EDR platform consists of a lightweight kernel-mode sensor (<1% CPU, <60MB RAM) deployed on Windows, macOS, and Linux endpoints. Sensors stream telemetry over mTLS 1.3 to the regional Helios Cloud, where a Kafka-backed streaming pipeline applies behavioral rules, YARA, and an XGBoost classifier in parallel. Detection-to-alert latency: median 8s, p95 22s, p99 41s (Q4 2023 fleet benchmark, n=2.1M endpoints). Alerts surface in the Helios Console and forward to SIEM/SOAR via webhook, syslog, or native connectors."
+  },
+  {
+    "doc_id": "doc-data-sources",
+    "title": "Supported Data Sources & Integrations",
+    "category": "technical",
+    "last_updated": "2024-02-10",
+    "content": "Endpoint telemetry: process creation, file/registry modification, network connections, DNS, PowerShell/WMI, kernel callbacks. Cloud: AWS CloudTrail, GuardDuty, Azure Activity Log, Defender, GCP Audit, Google Workspace. Identity: Okta, Azure AD, Ping, Duo. Network: Palo Alto, Cisco ASA/FTD, Fortinet, Zscaler. Email: M365, Google Workspace, Proofpoint. 180+ connectors total; custom sources via syslog/CEF or REST Log Forwarder API."
+  },
+  {
+    "doc_id": "doc-data-residency",
+    "title": "Data Residency & Encryption",
+    "category": "technical",
+    "last_updated": "2024-01-20",
+    "content": "Helios Cloud operates in four isolated regions: us-east-1 (Virginia), us-west-2 (Oregon), eu-central-1 (Frankfurt), ap-southeast-2 (Sydney). Customer telemetry, detections, and case data are pinned to the tenant's home region and never replicated cross-region. Encryption at rest: AES-256-GCM via AWS KMS; customers may supply their own KMS key (BYOK) or an external HSM (Hold-Your-Own-Key, enterprise tier). Encryption in transit: TLS 1.3 with certificate pinning agent↔cloud, TLS 1.2+ for console/API. EU tenants are GDPR-aligned with an executed DPA and SCCs."
+  },
+  {
+    "doc_id": "doc-mdr-service",
+    "title": "Managed Detection & Response (MDR) Service Description",
+    "category": "technical",
+    "last_updated": "2024-03-15",
+    "content": "Helios MDR provides 24×7×365 monitoring by SOC analysts in Austin and Dublin (follow-the-sun). Service includes alert triage, threat hunting, guided response playbooks, and a 30-minute SLA for critical-severity human acknowledgement. Monthly threat briefings and quarterly tabletop exercises included for Enterprise tier."
+  },
+  {
+    "doc_id": "doc-deployment",
+    "title": "Deployment & Agent Management",
+    "category": "technical",
+    "last_updated": "2023-12-05",
+    "content": "Agents deploy via MSI/PKG/DEB/RPM, MDM (Intune, Jamf, Kandji), or script. Signed delta auto-update with staged rollout (1% canary → 25% → 100%) and automatic rollback. Customers may pin versions and require manual approval per release ring."
+  }
+]
